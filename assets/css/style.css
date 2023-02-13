@@ -63,6 +63,16 @@ body {
  background-color: rgb(79, 42, 165);
  
 }
+
+.debug .row_brands {
+    height: 500px;
+    background-color: rgb(40, 194, 51);
+}
+
+.debug .container_teams {
+    height: 500px;
+    background-color: rgb(103, 129, 105);
+}
 /* ----------Header Selector--------- */
 
 #app-header {
@@ -124,3 +134,18 @@ body {
 .link_button_info_clients {
     margin-top: 50px;
 }
+
+/* Brands */
+
+/* Your company */
+
+.container_your_company {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Frequent questions */
+
+
+/* ----------footer Selector--------- */
+
