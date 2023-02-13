@@ -30,6 +30,7 @@ body {
 
     width: 60%;
     margin: auto;
+    max-width: 1400px;
 
 }
 
@@ -40,6 +41,7 @@ body {
 .container_smll {
     width: 50%;
     margin: auto;
+    max-width: 1400px;
 }
 
 /* #endregion----------Utility Selector--------- */
@@ -168,14 +170,16 @@ body {
 .img_banner {
     width: 70%;
     position: relative;
+ 
     
 }
 
 .img_banner img {
-    width: 90%;
+    height: 320px;
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 .info_banner i{
