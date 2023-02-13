@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: auto;
 }
 
 
@@ -15,15 +16,13 @@ body {
 /* #region----------Utility Selector--------- */
 
 :root {
-    --db-white : #ffffff;
-    --db-banner-heavenly : #b4d0e7;
+    --db-white: #ffffff;
+    --db-totalblack: #000000;
+    --db-banner-heavenly: #b4d0e7;
     --db-trasparent: trasparent;
 
 }
 
-.max-wdth {
-    max-width: 1200px;
-}
 
 .container {
 
@@ -50,18 +49,19 @@ body {
 .debug #banner div {
     background-color: green;
     height: 100%;
- 
-} 
+
+}
 
 .debug .container_plans {
- height: 500px;
- background-color: brown;
- 
+    height: 500px;
+    background-color: brown;
+
 }
-.debug .container_More_operations  {
- height: 500px;
- background-color: rgb(79, 42, 165);
- 
+
+.debug .container_More_operations {
+    height: 500px;
+    background-color: rgb(79, 42, 165);
+
 }
 
 .debug .row_brands {
@@ -73,13 +73,20 @@ body {
     height: 500px;
     background-color: rgb(103, 129, 105);
 }
+
+.debug .footer_col-1-5 {
+    background-color: #ffffff;
+    margin-right: 5px;
+    height: 300px;
+}
+
 /* ----------Header Selector--------- */
 
 #app-header {
     height: 40px;
     background-color: #ffffff;
     position: sticky;
-    top:0;
+    top: 0;
     left: 0;
 }
 
@@ -94,7 +101,7 @@ body {
     margin-bottom: 50px;
 }
 
-#banner > div {
+#banner>div {
     background-color: var(--db-trasparent);
 }
 
@@ -102,7 +109,7 @@ body {
 /* plans section  */
 
 
-.container_plans > h2 {
+.container_plans>h2 {
     padding: 10px 0 10px 0;
 }
 
@@ -114,7 +121,7 @@ body {
 }
 
 
-.container_partner_Dropbox > img {
+.container_partner_Dropbox>img {
     width: 60%;
 }
 
@@ -125,7 +132,7 @@ body {
 
 /* More_operations */
 
-.container_More_operations > h2 {
+.container_More_operations>h2 {
     padding: 10px 0 10px 0;
 }
 
@@ -149,3 +156,32 @@ body {
 
 /* ----------footer Selector--------- */
 
+#app-footer {
+    background-color: var(--db-totalblack);
+}
+
+
+.row_footer {
+    display: flex;
+    width: 100%;
+}
+
+.footer_col-1-5 {
+    width: calc(100% / 5 - 5px);
+
+}
+
+.lenguage {
+    color: var(--db-white);
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.fa-earth-americas {
+    margin-right: 5px;
+}
+
+.fa-caret-up {
+    margin-left: 5px;
+}
