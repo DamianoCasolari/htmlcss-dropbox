@@ -32,8 +32,12 @@ body {
 
 }
 
+.padding_section {
+    padding: 50px 0 50px 0;
+}
+
 .container_smll {
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
@@ -54,6 +58,11 @@ body {
  background-color: brown;
  
 }
+.debug .container_More_operations  {
+ height: 500px;
+ background-color: rgb(79, 42, 165);
+ 
+}
 /* ----------Header Selector--------- */
 
 #app-header {
@@ -72,7 +81,7 @@ body {
 #banner {
     background-color: #b4d0e7;
     height: 400px;
-    padding: 50px 0 30px 0;
+    margin-bottom: 50px;
 }
 
 #banner > div {
@@ -82,9 +91,6 @@ body {
 
 /* plans section  */
 
-#Plans {
-    padding: 50px 0 30px 0;
-}
 
 .container_plans > h2 {
     padding: 10px 0 10px 0;
@@ -93,10 +99,10 @@ body {
 /* Contact dropbox partner  */
 
 
-
 .container_partner_Dropbox {
     display: flex;
 }
+
 
 .container_partner_Dropbox > img {
     width: 60%;
@@ -104,4 +110,17 @@ body {
 
 .info_container {
     padding: 40px;
+}
+
+
+/* More_operations */
+
+.container_More_operations > h2 {
+    padding: 10px 0 10px 0;
+}
+
+/* Teams */
+
+.link_button_info_clients {
+    margin-top: 50px;
 }
