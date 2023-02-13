@@ -6,9 +6,20 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 /* #region----------Utility Selector--------- */
+
+:root {
+    --db-white : #ffffff;
+    --db-banner-heavenly : #b4d0e7;
+    --db-trasparent: trasparent;
+
+}
 
 .max-wdth {
     max-width: 1200px;
@@ -28,4 +39,69 @@
 
 /* #endregion----------Utility Selector--------- */
 
+
+
+/* #region----------Debug Selector--------- */
+
+.debug #banner div {
+    background-color: green;
+    height: 100%;
+ 
+} 
+
+.debug .container_plans {
+ height: 500px;
+ background-color: brown;
+ 
+}
 /* ----------Header Selector--------- */
+
+#app-header {
+    height: 40px;
+    background-color: #ffffff;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+
+
+/* ----------Main Selector--------- */
+
+/* banner section */
+
+#banner {
+    background-color: #b4d0e7;
+    height: 400px;
+    padding: 50px 0 30px 0;
+}
+
+#banner > div {
+    background-color: var(--db-trasparent);
+}
+
+
+/* plans section  */
+
+#Plans {
+    padding: 50px 0 30px 0;
+}
+
+.container_plans > h2 {
+    padding: 10px 0 10px 0;
+}
+
+/* Contact dropbox partner  */
+
+
+
+.container_partner_Dropbox {
+    display: flex;
+}
+
+.container_partner_Dropbox > img {
+    width: 60%;
+}
+
+.info_container {
+    padding: 40px;
+}
