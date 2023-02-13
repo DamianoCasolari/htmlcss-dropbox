@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
+    min-width: 770px;
 }
 
 
@@ -19,6 +20,7 @@ body {
     --db-white: #ffffff;
     --db-totalblack: #000000;
     --db-banner-heavenly: #b4d0e7;
+    --db-blue-btn: #0262ff;
     --db-trasparent: trasparent;
 
 }
@@ -83,11 +85,44 @@ body {
 /* ----------Header Selector--------- */
 
 #app-header {
-    height: 40px;
+    height: 50px;
     background-color: #ffffff;
     position: sticky;
     top: 0;
     left: 0;
+}
+
+.header_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header_container a {
+    color: var(--db-totalblack);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header_container .header_right .link_blu_btn {
+    background-color: var(--db-blue-btn);
+    padding: 5px 15px;
+    color: var(--db-white);
 }
 
 
@@ -170,6 +205,9 @@ body {
     width: calc(100% / 5 - 5px);
 
 }
+
+
+/* lenguage  */
 
 .lenguage {
     color: var(--db-white);
