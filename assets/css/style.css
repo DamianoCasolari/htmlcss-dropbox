@@ -44,6 +44,32 @@ body {
     max-width: 1400px;
 }
 
+.link_blue_btn {
+    background-color: var(--db-blue-btn);
+    padding: 5px 15px;
+    color: var(--db-white);
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px 0;
+}
+
+
+
+.padding-5 {
+    padding: 10px 20px;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    gap : 5px;
+}
+
+
+
 /* #endregion----------Utility Selector--------- */
 
 
@@ -83,6 +109,8 @@ body {
     margin-right: 5px;
     height: 300px;
 }
+
+/* #endregion----------Debug Selector--------- */
 
 /* ----------Header Selector--------- */
 
@@ -139,7 +167,7 @@ body {
     padding: 50px 0 0 0;
 }
 
-#banner > div {
+#banner>div {
     background-color: var(--db-trasparent);
 }
 
@@ -158,20 +186,11 @@ body {
     font-size: 12px;
 }
 
-.info_banner .link_blue_btn {
-    background-color: var(--db-blue-btn);
-    padding: 5px 15px;
-    color: var(--db-white);
-    display: inline-block;
-    text-decoration: none;
-    margin: 30px 0;
-}
-
 .img_banner {
     width: 70%;
     position: relative;
- 
-    
+
+
 }
 
 .img_banner img {
@@ -179,10 +198,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
-.info_banner i{
+.info_banner i {
     margin: 40px 0 10px 0;
 }
 
@@ -191,9 +210,83 @@ body {
 
 
 .container_plans>h2 {
-    padding: 10px 0 10px 0;
+    padding: 10px 0 50px 0;
 }
 
+.check_month_or_year label {
+    margin-right: 25px;
+}
+
+.check_month_or_year input {
+    vertical-align: middle;
+
+}
+
+.container_plans form {
+    margin-bottom: 50px;
+}
+
+.row_plan {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container_plans .col-4 {
+    width: calc(100% / 3 - 20px);
+    border: 1px solid gray;
+    padding-bottom: 20px;
+
+}
+
+.title_of_card_plans {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
+    font-size: 12px;
+
+}
+
+.col-4 h3 {
+    margin-top: 20px;
+}
+
+.row_plan ul {
+    list-style: none;
+    font-size: 12px;
+
+}
+
+.line_end_first_list {
+    border-bottom: 1px solid gray;
+    width: 40px;
+    margin: 20px 0;
+}
+
+.plan_highlights i {
+    color: var(--db-blue-btn);
+}
+
+
+/* final column 12/12  */
+
+.container_plans .col-12 {
+    width: 100%;
+    border: 1px solid gray;
+    padding-bottom: 20px;
+    margin: 30px 0;
+
+}
+
+.Final_columns_right {
+    margin: 0 20px;
+    width: 50%;
+}
+
+.col-12 h3 {
+    margin-top: 20px;
+}
 /* Contact dropbox partner  */
 
 
