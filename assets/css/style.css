@@ -14,6 +14,7 @@ body {
 
 
 
+
 /* #region----------Utility Selector--------- */
 
 :root {
@@ -78,6 +79,10 @@ body {
 
 .margin-top-bottom-20 {
     margin: 20px 0;
+}
+
+.margin-top-bottom-30 {
+    margin: 30px 0;
 }
 
 .text_align_center {
@@ -494,20 +499,25 @@ body {
 .button_frequent_questions {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.question {
+    font-weight: 600;
+}
 
 /* ----------footer Selector--------- */
 
 #app-footer {
     background-color: var(--db-totalblack);
     margin-top: 50px;
+    color: var(--db-white);
 }
 
 
 .row_footer {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .footer_col-1-5 {
@@ -515,7 +525,23 @@ body {
 
 }
 
+.footer_container ul {
+    list-style: none;
+}
 
+.footer_col-1-5 a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.line_end_footer{
+   width: 100px;
+   border-bottom: 1px solid white;
+   margin: 80px 0 40px 0;
+}
 /* lenguage  */
 
 .lenguage {
