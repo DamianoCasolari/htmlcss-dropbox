@@ -52,6 +52,7 @@ body {
     text-decoration: none;
     margin: 30px 0;
 }
+
 .link_blue_btn1 {
     background-color: var(--db-blue-btn);
     padding: 8px 15px;
@@ -85,14 +86,14 @@ body {
 
 .d-flex {
     display: flex;
-    gap : 5px;
+    gap: 5px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
 
 .col-4 {
@@ -319,6 +320,7 @@ body {
 .col-12 h3 {
     margin-top: 20px;
 }
+
 /* Contact dropbox partner  */
 
 .container_partner_Dropbox {
@@ -326,11 +328,11 @@ body {
 }
 
 .container_img_partner {
-width: 60%;
+    width: 60%;
 }
 
 
-.container_img_partner > img {
+.container_img_partner>img {
     width: 100%;
     max-width: 600px;
 }
@@ -339,7 +341,8 @@ width: 60%;
     padding: 40px;
     width: 40%;
 }
-.info_container p{
+
+.info_container p {
     margin: 20px 0;
     font-size: 12px;
 }
@@ -362,7 +365,7 @@ width: 60%;
     padding: 10px 0 10px 0;
 }
 
-.img_operations img{
+.img_operations img {
     width: 100%;
     margin-top: 30px;
 }
@@ -381,7 +384,7 @@ width: 60%;
 
 .row_brands {
     display: flex;
-    
+
 }
 
 .brands_col-4 {
@@ -389,14 +392,15 @@ width: 60%;
     display: flex;
     flex-wrap: wrap;
 }
+
 .block_brand {
     width: 50%;
     aspect-ratio: 1 / 1;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .block_brand img {
@@ -409,24 +413,31 @@ width: 60%;
     border: 10px solid #d1e9cd;
     background-color: #a2d39b;
 }
+
 .second_block {
     background-color: #61082b;
 }
+
 .third_block {
     background-color: #0093ce;
 }
+
 .fourth_block {
     background-color: #ff1c1c;
 }
+
 .fifth_block {
     background-color: #d5001f;
 }
+
 .sixth_block {
     background-color: #b4d0e7;
 }
+
 .seventh_block {
     background-color: #0d2481;
 }
+
 .ninth_block {
     background-color: #ffd830;
 }
@@ -439,7 +450,7 @@ width: 60%;
     width: calc(100% / 3);
     padding: 40px;
     background-color: #f5f5f5;
-    
+
 }
 
 .brands_central_col h2 {
@@ -462,11 +473,6 @@ width: 60%;
     padding: 100px 0;
 }
 
-/* .container_your_company {
-    display: flex;
-    justify-content: space-between;
-} */
-
 .link_button_free_trial {
     width: 50%;
     text-align: end;
@@ -485,11 +491,17 @@ width: 60%;
 
 /* Frequent questions */
 
+.button_frequent_questions {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* ----------footer Selector--------- */
 
 #app-footer {
     background-color: var(--db-totalblack);
+    margin-top: 50px;
 }
 
 
