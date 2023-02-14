@@ -375,6 +375,74 @@ width: 60%;
 
 /* Brands */
 
+.row_brands {
+    display: flex;
+    
+}
+
+.brands_col-4 {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.block_brand {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block_brand img {
+    filter: invert();
+    width: 50%;
+}
+
+
+.first_block {
+    border: 10px solid #d1e9cd;
+    background-color: #a2d39b;
+}
+.second_block {
+    background-color: #61082b;
+}
+.third_block {
+    background-color: #0093ce;
+}
+.fourth_block {
+    background-color: #ff1c1c;
+}
+.fifth_block {
+    background-color: #d5001f;
+}
+.sixth_block {
+    background-color: #b4d0e7;
+}
+.seventh_block {
+    background-color: #0d2481;
+}
+.ninth_block {
+    background-color: #ffd830;
+}
+
+.brands_central_col {
+    width: calc(100% / 3);
+    padding: 40px;
+}
+
+.brands_central_col h2 {
+    font-size: 39px;
+}
+
+.brands_central_col h2 i {
+    font-size: 12px;
+    position: relative;
+    top: -21px;
+    left: 0;
+}
+
 /* Your company */
 
 .container_your_company {
