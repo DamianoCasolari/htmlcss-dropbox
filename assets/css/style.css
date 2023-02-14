@@ -517,11 +517,12 @@ body {
 
 .row_footer {
     display: flex;
+    justify-content: space-between;
     /* width: 100%; */
 }
 
 .footer_col-1-5 {
-    width: calc(100% / 5 - 5px);
+    width: calc(100% / 5 - 10px);
 
 }
 
@@ -545,7 +546,7 @@ body {
 /* lenguage  */
 
 .lenguage {
-    color: var(--db-white);
+    color: #969390;
     text-decoration: none;
     vertical-align: middle;
 
