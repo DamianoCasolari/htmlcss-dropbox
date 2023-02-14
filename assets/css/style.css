@@ -375,6 +375,10 @@ width: 60%;
 
 /* Brands */
 
+#brands {
+    padding-top: 50px;
+}
+
 .row_brands {
     display: flex;
     
@@ -427,10 +431,15 @@ width: 60%;
     background-color: #ffd830;
 }
 
+
+/* central block of brand  */
+
+
 .brands_central_col {
     width: calc(100% / 3);
     padding: 40px;
     background-color: #f5f5f5;
+    
 }
 
 .brands_central_col h2 {
@@ -444,10 +453,13 @@ width: 60%;
     left: 0;
 }
 
+
+
 /* Your company */
 
 #your_company {
     background-color: var(--db-banner-heavenly);
+    padding: 100px 0;
 }
 
 /* .container_your_company {
@@ -457,10 +469,12 @@ width: 60%;
 
 .link_button_free_trial {
     width: 50%;
+    text-align: end;
 }
 
 .container_your_company a {
-   
+    text-align: center;
+    width: 80%;
     padding: 5px 10px;
     text-decoration: none;
     color: var(--db-totalblack);
