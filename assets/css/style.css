@@ -430,6 +430,7 @@ width: 60%;
 .brands_central_col {
     width: calc(100% / 3);
     padding: 40px;
+    background-color: #f5f5f5;
 }
 
 .brands_central_col h2 {
@@ -445,9 +446,27 @@ width: 60%;
 
 /* Your company */
 
-.container_your_company {
+#your_company {
+    background-color: var(--db-banner-heavenly);
+}
+
+/* .container_your_company {
     display: flex;
     justify-content: space-between;
+} */
+
+.link_button_free_trial {
+    width: 50%;
+}
+
+.container_your_company a {
+   
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--db-totalblack);
+    display: inline-block;
+    font-size: 12px;
+    background-color: var(--db-white);
 }
 
 /* Frequent questions */
