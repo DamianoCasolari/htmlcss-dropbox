@@ -31,29 +31,44 @@ body {
     width: 60%;
     margin: auto;
     max-width: 1400px;
+    min-width: 500px;
 
+}
+
+
+.container_smll {
+    width: 50%;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 500px;
 }
 
 .padding_section {
     padding: 50px 0 50px 0;
 }
 
-.container_smll {
-    width: 50%;
-    margin: auto;
-    max-width: 1400px;
-}
 
 .link_blue_btn {
     background-color: var(--db-blue-btn);
-    padding: 5px 15px;
+    padding: 8px 15px;
     color: var(--db-white);
     display: inline-block;
     text-decoration: none;
     margin: 30px 0;
 }
+.link_blue_btn1 {
+    background-color: var(--db-blue-btn);
+    padding: 8px 15px;
+    color: var(--db-white);
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px 0;
+    width: 80%;
+}
 
-
+.size-12 {
+    font-size: 12px;
+}
 
 .padding-5 {
     padding: 10px 20px;
@@ -269,7 +284,7 @@ body {
 }
 
 
-/* final column 12/12  */
+/* final column 12  */
 
 .container_plans .col-12 {
     width: 100%;
@@ -289,18 +304,34 @@ body {
 }
 /* Contact dropbox partner  */
 
-
 .container_partner_Dropbox {
     display: flex;
 }
 
+.container_img_partner {
+width: 60%;
+}
 
-.container_partner_Dropbox>img {
-    width: 60%;
+
+.container_img_partner > img {
+    width: 100%;
+    max-width: 600px;
 }
 
 .info_container {
     padding: 40px;
+    width: 40%;
+}
+.info_container p{
+    margin: 20px 0;
+}
+
+.link_btn a {
+    border: 2px solid var(--db-totalblack);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--db-totalblack);
+    display: inline-block;
 }
 
 
