@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     min-width: 770px;
-    max-width: 1920px;
+    
 
 }
 
@@ -52,14 +52,19 @@ body {
     display: none;
 }
 
-.button_frequent_questions:hover p,.button_frequent_questions:hover .fa-chevron-up {
+.button_frequent_questions:active p,.button_frequent_questions:active .fa-chevron-up {
     display: block;
+    transition-duration: 1s;
     
 }
 
-.button_frequent_questions:hover .fa-chevron-down {
+.button_frequent_questions:active .fa-chevron-down {
     display: none;
 }
+
+/* .row_brands .brands_col-4 .first_block:hover {
+    
+} */
 
 
 /* Normal selector  */
@@ -443,10 +448,13 @@ body {
 
 #brands {
     padding-top: 50px;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .row_brands {
     display: flex;
+   
 
 }
 
@@ -539,6 +547,8 @@ body {
 #your_company {
     background-color: var(--db-banner-heavenly);
     padding: 100px 0;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .link_button_free_trial {
@@ -592,6 +602,7 @@ body {
 .answer {
     display: none;
     font-size: 12px;
+    margin-top: 20px;
    
 }
 
