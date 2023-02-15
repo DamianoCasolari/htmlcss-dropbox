@@ -27,6 +27,7 @@ body {
     --db-banner-heavenly: #b4d0e7;
     --db-blue-btn: #0262ff;
     --db-blue-btn_press: #2e7cfa;
+    --db-blue-btn_hover: #0263ffcc;
     --db-trasparent: trasparent;
 
 }
@@ -234,7 +235,8 @@ body {
 }
 
 .header_container a:not(.logo, .link_blue_btn):hover {
-    border-bottom: 2px solid var(--db-blue-btn);
+    border-bottom: 2px solid var(--db-blue-btn_hover);
+    border-radius: 2px;
 
 }
 
