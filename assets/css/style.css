@@ -44,6 +44,23 @@ body {
 }
 
 
+.question:hover p {
+    display: block;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.button_frequent_questions:hover p,.button_frequent_questions:hover .fa-chevron-up {
+    display: block;
+    
+}
+
+.button_frequent_questions:hover .fa-chevron-down {
+    display: none;
+}
+
 
 /* Normal selector  */
 
@@ -499,7 +516,12 @@ body {
 
 }
 
-.brands_central_col h2 {
+.brands_central_col .main_logo_brand {
+    display: block;
+    max-width: 100%;
+}
+
+/* .brands_central_col h2 {
     font-size: 39px;
 }
 
@@ -508,7 +530,7 @@ body {
     position: relative;
     top: -21px;
     left: 0;
-}
+} */
 
 
 
@@ -541,10 +563,36 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .question {
     font-weight: 600;
+    font-size: 12px;
+    width: 90%;
+}
+
+.fa-chevron-down {
+    width: 10%;
+    display: block;
+    font-size: 12px;
+    text-align: end;
+}
+
+/* class hidden */
+
+.fa-chevron-up {
+    width: 10%;
+    display: none;
+    font-size: 12px;
+    text-align: end;
+}
+
+.answer {
+    display: none;
+    font-size: 12px;
+   
 }
 
 /* ----------footer Selector--------- */
@@ -703,3 +751,5 @@ body {
 .link_btn:hover .bottom_white_space {
     animation: lateral_move_bottom 3s linear infinite;
 } 
+
+
