@@ -19,7 +19,7 @@ body {
 
 /* #region----------Utility Selector--------- */
 
-/* pseudo-selector  */
+/* utility pseudo-selectors  */
 
 :root {
     --db-white: #ffffff;
@@ -68,7 +68,7 @@ body {
 } */
 
 
-/* Normal selector  */
+/* utility normal selectors  */
 
 .container {
 
@@ -137,6 +137,10 @@ body {
     gap: 5px;
 }
 
+.baseline {
+    align-items: baseline;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -149,6 +153,9 @@ body {
     padding-bottom: 20px;
 }
 
+.icon_plan {
+    margin: 0 5px;
+}
 
 
 
